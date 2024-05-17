@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="1dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity"
+    android:background="#2B2929"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="379dp"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:paddingRight="16dp">
+
+
+        <Button
+            android:id="@+id/HomeButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:background="#2B2929"
+            android:text="Home"
+            android:textColor="#fff" />
+
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="35dp"
+            android:background="#2B2929"
+            android:text="Search"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/Friends"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#2B2929"
+            android:text="Friends"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/Profile"
+            android:layout_width="64dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:background="#2B2929"
+            android:text="Profile"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Logs"
+        android:textSize="20sp"
+        android:fontFamily="@font/notosansextrabold"
+        android:textColor="#fff"
+        />
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_gravity="left"/>
+
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:id="@+id/horizontalScrollView"
+        android:layout_above="@+id/linearLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_container4"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friends Log"
+        android:textSize="20sp"
+        android:fontFamily="@font/notosansextrabold"
+        android:textColor="#fff"
+        />
+
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_gravity="left"/>
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:id="@+id/horizontalScrollView1"
+        android:layout_above="@+id/linearLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_container5"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

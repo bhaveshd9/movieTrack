@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="1dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity"
+    android:background="#2B2929"
+    android:gravity="center_horizontal">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="239dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:fontFamily="@font/notosansextrabold"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="45sp"
+        android:gravity="center"
+
+        android:shadowColor="#000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="7"
+        />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundtextedit"
+        android:ems="10"
+        android:fontFamily="@font/notosansregular"
+        android:inputType="textPersonName"
+        android:padding="5dip"
+        android:textSize="22sp"
+        android:textColorHint="#000"
+        android:elevation="10dp"
+
+        android:hint="Username"
+
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundtextedit"
+        android:hint="Password"
+        android:padding="5dip"
+        android:textColorHint="#000000"
+        android:fontFamily="@font/notosansregular"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:elevation="10dp"
+        android:textSize="22sp"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="28dp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackground"
+        android:elevation="10dp"
+        android:fontFamily="@font/notosansregular"
+        android:gravity="center"
+        android:padding="2dip"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="24sp"
+
+
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#db2a50"/>
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="21dp" />
+
+    <Button
+        android:id="@+id/CreateAccountButton"
+        android:layout_width="244dp"
+        android:layout_height="63dp"
+        android:background="@drawable/buttonbackground"
+        android:elevation="10dp"
+        android:fontFamily="@font/notosansregular"
+        android:gravity="center"
+        android:padding="2dip"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="24sp"
+
+
+        />
+
+</LinearLayout>
