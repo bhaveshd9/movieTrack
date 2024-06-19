@@ -9,7 +9,7 @@ Movie Track is an Android application designed to help users track their favorit
 Login Page: Users can log in with their credentials.
 Create Account Page: New users can create an account if they don't have one.
 
-![Movie Track Screenshot](images/Movie.PNG)
+![Movie Track Screenshot](images/Movie.jpeg)
 
 ![Movie Track Screenshot](images/Movie1.PNG)
 
