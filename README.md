@@ -2,7 +2,7 @@
 
 Youtube link: https://youtu.be/nGw5TT5IQSs?feature=shared
 
-Movie Track is an Android application designed to help users track their favorite movies, rate them, comment, and interact with friends. This README provides an overview of the app's features and functionality, along with instructions on how to set up and contribute to the project.
+Movie Track is an Android application designed to help users track their favorite movies, rate them, comment, and interact with friends.
 
 **Features**
 **User Authentication**
